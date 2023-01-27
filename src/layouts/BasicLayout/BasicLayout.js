@@ -1,12 +1,13 @@
-// import Header from "../../components/Header";
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 
 export default function BasicLayout(props) {
   const { children, className } = props;
-
   return (
     <div>
-      {/* <Header /> */}
-      <div className="content">{children}</div>
+      <Header />
+        <div className="content">{children}</div>
+      <Footer />
     </div>
   );
 }

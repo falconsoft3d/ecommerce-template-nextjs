@@ -1,1 +1,3 @@
-@import "/src/layouts/BasicLayout/BasicLayout.css";
+@import "../src/layouts/BasicLayout/BasicLayout.css";
+
+@import "../src/components/Footer/Footer.css";

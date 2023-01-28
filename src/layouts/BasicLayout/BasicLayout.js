@@ -6,7 +6,7 @@ export default function BasicLayout(props) {
   return (
     <div>
       <Header />
-        <div className="content">{children}</div>
+        <div className="content bg">{children}</div>
       <Footer />
     </div>
   );

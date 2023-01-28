@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link';
+import { signup } from '../../data/config';
 
 export default function Footer() {
   return (
@@ -9,7 +10,9 @@ export default function Footer() {
         <li className="nav-item"><Link href="/" className="nav-link px-2 text-muted">Home</Link></li>
         <li className="nav-item"><Link href="/shop" className="nav-link px-2 text-muted">Shop</Link></li>
         <li className="nav-item"><Link href="/blog" className="nav-link px-2 text-muted">Blog</Link></li>
-        <li className="nav-item"><Link href="/signup" className="nav-link px-2 text-muted">Register</Link></li>
+        
+        { signup == 'true' && <li className="nav-item"><Link href="/signup" className="nav-link px-2 text-muted">Register</Link></li>}
+        
         <li className="nav-item"><Link href="/signin" className="nav-link px-2 text-muted">Login</Link></li>
       </ul>
       <p className="text-center text-muted">&copy; 2023 Ecommerce</p>

@@ -1,8 +1,11 @@
 import React, { useState } from 'react'
 import BasicLayout from "../src/layouts/BasicLayout";
+import P404 from "../src/components/P404";
 import Link from 'next/link'
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { signup } from "../src/data/config";
+
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
@@ -38,7 +41,8 @@ export default function Home() {
 
   return (
       <BasicLayout classNameName="home">
-          <main className="login-form m-4">
+        { signup == 'true' ? (
+    <main className="login-form m-4">
     <div className="cotainer">
         <div className="row justify-content-center">
             <div className="col-md-6">
@@ -105,7 +109,7 @@ export default function Home() {
             </div>
         </div>
     </div>
-</main>   
+</main>  ) : <P404 />  }  
       </BasicLayout>
   )
 }

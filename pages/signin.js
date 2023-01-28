@@ -3,6 +3,7 @@ import BasicLayout from "../src/layouts/BasicLayout";
 import Link from 'next/link'
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { signup } from "../src/data/config";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(false);
@@ -91,8 +92,8 @@ export default function Home() {
                     
                     
                 </div>
-
-                <p class="text-center mt-4">Don't have account? <Link href="/signup">Sign up</Link></p>
+                { signup == 'true' && <p class="text-center mt-4">Don't have account? <Link href="/signup">Sign up</Link></p>}
+                
             </div>
         </div>
     </div>

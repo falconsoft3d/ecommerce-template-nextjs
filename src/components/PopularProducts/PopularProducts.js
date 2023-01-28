@@ -21,7 +21,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/400.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div>
@@ -30,7 +30,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/500.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div> 
@@ -39,7 +39,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/700.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div> 
@@ -48,7 +48,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/800.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div>     
@@ -60,7 +60,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/1001.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div>
@@ -69,7 +69,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/1002.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div> 
@@ -78,7 +78,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/1004.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div> 
@@ -87,7 +87,7 @@ export default function PopularProducts() {
                 <Link href="/product" class="img-wrap"> <img src="/img/products/1006.jpeg"/> </Link>
                 <figcaption class="info-wrap">
                     <Link href="/product" class="title">Bose Headphones</Link>
-                    <div class="price mt-1">$299.00</div>
+                    <div class="price mt-1">299.00 €</div>
                 </figcaption>
             </div>
         </div>     

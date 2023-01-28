@@ -8,7 +8,7 @@ export default function Header() {
     <div class="container d-flex flex-wrap">
       <ul class="nav me-auto">
         <li class="nav-item"><Link href="/" class="nav-link link-dark px-2 active" aria-current="page">Home</Link></li>
-        <li class="nav-item"><Link href="/shop" class="nav-link link-dark px-2">Shop</Link></li>
+        <li class="nav-item"><Link href="/store" class="nav-link link-dark px-2">Store</Link></li>
         <li class="nav-item"><Link href="/blog" class="nav-link link-dark px-2">Blog</Link></li>
       </ul>
       <ul class="nav">

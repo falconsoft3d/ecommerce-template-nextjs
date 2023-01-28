@@ -8,7 +8,7 @@ export default function Footer() {
       <footer>
         <ul className="nav justify-content-center border-bottom pb-3 mb-3">
           <li className="nav-item"><Link href="/" className="nav-link px-2 text-muted">Home</Link></li>
-          <li className="nav-item"><Link href="/shop" className="nav-link px-2 text-muted">Shop</Link></li>
+          <li className="nav-item"><Link href="/store" className="nav-link px-2 text-muted">Store</Link></li>
           <li className="nav-item"><Link href="/blog" className="nav-link px-2 text-muted">Blog</Link></li>
           
           { signup == 'true' && <li className="nav-item"><Link href="/signup" className="nav-link px-2 text-muted">Register</Link></li>}

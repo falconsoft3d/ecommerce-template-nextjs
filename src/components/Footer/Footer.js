@@ -13,6 +13,8 @@ export default function Footer() {
         
         { signup == 'true' && <li className="nav-item"><Link href="/signup" className="nav-link px-2 text-muted">Register</Link></li>}
         
+
+        <li className="nav-item"><Link href="/contact" className="nav-link px-2 text-muted">Contact</Link></li>
         <li className="nav-item"><Link href="/signin" className="nav-link px-2 text-muted">Login</Link></li>
       </ul>
       <p className="text-center text-muted">&copy; 2023 Ecommerce</p>

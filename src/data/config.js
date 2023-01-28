@@ -1,2 +1,2 @@
 
-export const signup = 'false'
+export const signup = 'true'

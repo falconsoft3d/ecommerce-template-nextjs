@@ -92,7 +92,7 @@ export default function Home() {
                     
                     
                 </div>
-                { signup == 'true' && <p class="text-center mt-4">Don't have account? <Link href="/signup">Sign up</Link></p>}
+                { signup == 'true' && <p class="text-center mt-4">Do not have account? <Link href="/signup">Sign up</Link></p>}
                 
             </div>
         </div>
